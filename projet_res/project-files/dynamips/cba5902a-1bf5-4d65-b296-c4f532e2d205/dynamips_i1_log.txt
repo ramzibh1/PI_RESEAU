@@ -1,0 +1,40 @@
+Dec 19 23:32:13.073 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Dec 19 23:32:13.078 HYPERVISOR: Started on IP = localhost, TCP port = 51037.
+Dec 19 23:32:13.113 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 19 23:32:13.115 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\F\OneDrive\Bureau\projet_res\project-files\dynamips 
+Dec 19 23:32:13.122 GENERAL: working_dir=C:\Users\F\OneDrive\Bureau\projet_res\project-files\dynamips
+Dec 19 23:32:13.123 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\F\OneDrive\Bureau\projet_res\project-files\dynamips\cba5902a-1bf5-4d65-b296-c4f532e2d205 
+Dec 19 23:32:13.123 GENERAL: working_dir=C:\Users\F\OneDrive\Bureau\projet_res\project-files\dynamips\cba5902a-1bf5-4d65-b296-c4f532e2d205
+Dec 19 23:32:13.125 HYPERVISOR: exec_cmd: vm create RZ-2 1 c3745 
+Dec 19 23:32:13.129 VM: VM RZ-2 created.
+Dec 19 23:32:13.131 HYPERVISOR: exec_cmd: vm set_con_tcp_port RZ-2 5000 
+Dec 19 23:32:13.133 HYPERVISOR: exec_cmd: c3745 get_mac_addr RZ-2 
+Dec 19 23:32:13.133 HYPERVISOR: exec_cmd: vm set_disk0 RZ-2 0 
+Dec 19 23:32:13.135 HYPERVISOR: exec_cmd: vm set_exec_area RZ-2 64 
+Dec 19 23:32:13.137 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:13.137 HYPERVISOR: exec_cmd: vm set_idle_pc RZ-2 0x60aa1da0 
+Dec 19 23:32:13.141 HYPERVISOR: exec_cmd: vm set_ios RZ-2 C:/Users/F/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Dec 19 23:32:13.143 HYPERVISOR: exec_cmd: c3745 set_mac_addr RZ-2 c401.2588.0000 
+Dec 19 23:32:13.147 HYPERVISOR: exec_cmd: vm set_nvram RZ-2 256 
+Dec 19 23:32:13.149 HYPERVISOR: exec_cmd: vm set_ram RZ-2 256 
+Dec 19 23:32:13.152 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:13.152 HYPERVISOR: exec_cmd: vm slot_add_binding RZ-2 1 0 NM-1FE-TX 
+Dec 19 23:32:13.154 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:13.154 HYPERVISOR: exec_cmd: vm slot_add_binding RZ-2 2 0 NM-4T 
+Dec 19 23:32:13.156 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:13.158 HYPERVISOR: exec_cmd: vm slot_add_binding RZ-2 0 16 WIC-1T 
+Dec 19 23:32:13.158 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:13.160 HYPERVISOR: exec_cmd: vm slot_add_binding RZ-2 0 32 WIC-1T 
+Dec 19 23:32:13.162 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:13.162 HYPERVISOR: exec_cmd: vm slot_add_binding RZ-2 0 48 WIC-1T 
+Dec 19 23:32:18.000 HYPERVISOR: exec_cmd: nio create_udp udp-d8cd07d8-fcea-422b-8343-d298fcd54d9c 10008 127.0.0.1 10009 
+Dec 19 23:32:18.395 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RZ-2 0 1 udp-d8cd07d8-fcea-422b-8343-d298fcd54d9c 
+Dec 19 23:32:18.397 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:32:23.844 HYPERVISOR: exec_cmd: nio create_udp udp-70cdc249-ad69-4707-b7e4-a277a1163fe6 10014 127.0.0.1 10015 
+Dec 19 23:32:23.855 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RZ-2 1 0 udp-70cdc249-ad69-4707-b7e4-a277a1163fe6 
+Dec 19 23:32:23.857 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:47:09.474 HYPERVISOR: exec_cmd: vm get_status RZ-2 
+Dec 19 23:47:09.491 HYPERVISOR: exec_cmd: vm extract_config RZ-2 
+Dec 19 23:47:20.468 HYPERVISOR: Stopped.
+Dec 19 23:47:20.469 VM: VM RZ-2 destroyed.
+Dec 19 23:47:20.475 GENERAL: reset done.
